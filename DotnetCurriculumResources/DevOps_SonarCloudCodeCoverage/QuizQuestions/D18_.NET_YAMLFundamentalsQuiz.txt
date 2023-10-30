@@ -1,0 +1,39 @@
+::YamlFundamentals
+::YAML is ___.
+{
+=a human-readable data serialization standard for all programming languages.
+~a human-writable data serialization standard for all programming languages. 
+~a human-readable data transfer standard for all programming languages. 
+~a human-readable data serialization standard for most programming languages. 
+}
+
+::YamlFundamentals
+::The most mportant goal of YAML is
+{
+=Be easily readable by humans.
+~Be easy to implement and use.
+~Be expressive and extensible.
+~Be portable between programming languages.
+}
+
+::YamlFundamentals
+::How do you automatically start your build?
+{
+=Set up a trigger 
+~Push to your repo
+~Make a Pull Request to your master branch
+~Use a .yml document
+}
+
+::YamlFundamentals
+::A pipeline can have many stages.
+{TRUE}
+
+::YamlFundamentals
+::A Stage is divided into ___.
+{
+=Jobs
+~Tasks
+~Steps
+~Images
+}

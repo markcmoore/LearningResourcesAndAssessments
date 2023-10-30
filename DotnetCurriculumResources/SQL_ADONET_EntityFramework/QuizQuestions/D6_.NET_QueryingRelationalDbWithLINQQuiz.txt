@@ -1,0 +1,80 @@
+::QueryingWithSQLandLINQ
+::Which O/RM pattern allows you to load data from the database when the navigation property is accessed?
+{
+=Lazy loading
+~Eager loading
+~Explicit loading
+~Implicit loading
+}
+
+::QueryingWithSQLandLINQ
+::(Choose all that apply) Which method(s) do you need to use in order to specify related data from one or multiple relationships to be included in query results?
+{
+~%50%.ThenInclude()
+~%50%.Include()
+~%-50%.Included()
+~%-50%.AlsoInclude()
+}
+
+::QueryingWithSQLandLINQ
+::What allows you to use the navigation properties in your models to load related entities?
+{
+=EF Core
+~EF Framework
+~EF Feedback
+~EF Central
+}
+
+::QueryingWithSQLandLINQ
+::Which O/RM pattern allows you to load data from the database as part of the initial query?
+{
+=Eager loading
+~Explicit loading
+~Lazy loading
+~Implicit loading
+}
+
+::QueryingWithSQLandLINQ
+::Which O/RM pattern allows you to load data from the database at a later time?
+{
+=Explicit loading
+~Eager loading
+~Lazy loading
+~Implicit loading
+}
+
+::QueryingWithSQLandLINQ
+::____ means you can make changes to entity instances and have those changes persisted by .SaveChanges().
+{
+=Tracking
+~No-Tracking Queries
+~Raw SQL Queries
+~SQL Queries
+}
+
+::QueryingWithSQLandLINQ
+::These are best used when you are reading query results.
+{
+=No-Tracking Queries
+~Tracking Queries
+~Raw SQL Queries
+~SQL Queries
+}
+
+::QueryingWithSQLandLINQ
+::These are useful when the query you want can't be expressed using LINQ. 
+{
+=Raw SQL Queries
+~SQL Queries
+~No-Tracking Queries
+~Tracking Queries
+}
+
+::QueryingWithSQLandLINQ
+::This is the command to load a query without tracking changes.
+{
+=.AsNoTracking()
+~.asNoTracking()
+~.noTracking()
+~.trackingOff()
+}

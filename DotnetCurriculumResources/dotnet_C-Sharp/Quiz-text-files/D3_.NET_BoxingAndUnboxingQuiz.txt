@@ -1,0 +1,40 @@
+::BoxingAndUnboxing
+::Subtyping between ___ types relates to subtyping between their components. 
+{
+=more complex
+~less complex
+~more derived
+~less derived
+}
+
+::BoxingAndUnboxing
+::The concept of boxing and unboxing underlies the C# ___. 
+{
+=Unified Type System
+~simplified interface
+~.NET Framework
+~Object Model
+}
+
+::BoxingAndUnboxing
+::In the .NET Framework a value of any type can be treated as an object.
+{TRUE}
+
+::BoxingAndUnboxing
+::Unboxing ___ the value type from the object.
+{
+=extracts 
+~saves
+~copies
+~moves
+}
+
+::BoxingAndUnboxing
+::Unboxing is ___ conversion from the type object to a value type 
+{
+=an explicit 
+~an implicit
+~an automatic
+~a value
+}
+

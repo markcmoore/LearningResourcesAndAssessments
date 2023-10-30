@@ -1,0 +1,40 @@
+::LambdaExpressions
+::Lambda expressions are ___ that contain expressions or a sequence of operators. 
+{
+=anonymous functions
+~methods
+~operations
+~variables
+}
+
+::LambdaExpressions
+::There are two Lambda expression forms
+{TRUE}
+
+::LambdaExpressions
+::The body of a statement lambda can consist of ___ statement(s).
+{
+=any number of
+~only one
+~inline
+~anonymous
+}
+
+::LambdaExpressions
+::A lambda expression that has two parameters and returns void can be converted to a/an ___ delegate. 
+{
+=Action<T1,T2>
+~Func<T1,T2>
+~Action<T,TResult>
+~Func<T,TResult>
+}
+
+::LambdaExpressions
+::A Predicate<T> Delegate returns ___ if the obj meets the criteria defined within the method represented by the delegate.
+{
+=true
+~false
+~void
+~1
+}
+

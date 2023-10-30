@@ -1,0 +1,107 @@
+::HTTPRequestLifeCycle
+::During which HTTP session phase does the client send its request and wait for the answer?
+{
+=Second
+~First
+~Third
+~Fourth
+}
+
+::HTTPRequestLifeCycle
+::Which system translates domain names to numerical IP addresses and why?
+{
+=Which system translates domain names to numerical IP addresses and why?
+~Domain Number System, to identify computer services over the web.
+~Domain Number System, to locate and identify computer services and devices over the web.
+~Domain Name System, to locate computer devices over the web.
+}
+
+::HTTPRequestLifeCycle
+::What is the default port to establish a connection?
+{
+=80
+~85
+~90
+~95
+}
+
+::HTTPRequestLifeCycle
+::What does the server need to send data?
+{
+=An explicit request
+~A request
+~To ping the server
+~XMLHTTPRequest
+}
+
+::HTTPRequestLifeCycle
+::What does the URL of a page contain?
+{
+=The domain name and the port number.
+~The domain name.
+~The port number.
+~The domain name and the request message.
+}
+
+::HTTPRequestLifeCycle
+::What does the Request Message Header contain?
+{
+=The request line and the request header.
+~The request message body.
+~The request header.
+~The request line.
+}
+
+::HTTPRequestLifeCycle
+::This is located in the first block of the Server response:
+{
+=Request status code
+~HTTP Headers
+~Data size
+~Data
+}
+
+::HTTPRequestLifeCycle
+::Which of these is not a HTTP verb?
+{
+=INSERT
+~CONNECT
+~DELETE
+~GET
+}
+
+::HTTPRequestLifeCycle
+::Which request method replaces all current representations of the target resource with the request payload?
+{
+=PUT
+~POST
+~PATCH
+~GET
+}
+
+::HTTPRequestLifeCycle
+::What is the best description for the request method "OPTIONS"?
+{
+=Describes the communication options for the target resource.
+~Describes the communication message for the target resource.
+~Asks for a message test along the path to the target resource.Performs a message loop-back test along the path to the target resource.
+~
+}
+
+::HTTPRequestLifeCycle
+::What type of response is 200?
+{
+=successful
+~client
+~informational
+~redirects
+}
+
+::HTTPRequestLifeCycle
+::What code number represents this response: The requested resource resides temporarily under a different URI.
+{
+=307
+~404
+~301
+~403
+}

@@ -1,0 +1,38 @@
+::IntegrationTesting
+::Integration tests ensure that ___.
+{
+=an app's components function correctly at a level that includes the app's supporting infrastructure
+~an classes components function correctly at a level that includes the app's supporting infrastructure
+~an app's components function correctly at a level that includes the classes supporting infrastructure
+~an app's components function correctly at a level that includes the app's supporting dependencies}
+
+::IntegrationTesting
+::Integration tests are the ___ level of testing. 
+{
+=second 
+~first
+~third
+~fourth
+}
+
+::IntegrationTesting
+::You should limit the use of ___. 
+{
+=integration tests to the most important infrastructure scenarios.
+~integration tests to the least important infrastructure scenarios.
+~integration methods to the most important infrastructure scenarios.
+~integration tests to the most important infrastructure actions.
+}
+
+::IntegrationTesting
+::The workflow of Integration Testing follows ___.
+{
+=the familiar Arrange/Act/Assert process. 
+~a standardized pattern
+~compilation
+~configuration of the server client
+}
+
+::IntegrationTesting
+::In an MVC app, tests are usually organized by controller classes
+{TRUE}

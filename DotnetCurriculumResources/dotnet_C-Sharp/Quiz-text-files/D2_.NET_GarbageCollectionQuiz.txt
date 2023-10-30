@@ -1,0 +1,39 @@
+::GarbageCollection
+::.NET’s Garbage Collector ___.
+{
+=manages the allocation and release of memory for your application. 
+~manages the deallocation and release of memory for your application. 
+~checks for objects in the unmanaged heap that are no longer being used.
+~reclaims memory allocated by other appications
+}
+
+::GarbageCollection
+::Each process (program) has ___ virtual memory allocated.
+{
+=2GB of
+~no
+~adequate
+~only previously deallocated
+}
+
+::GarbageCollection
+::Virtual memory has three states: 
+{
+=Free, Reserved, and Committed
+~Free, Reallocated, and Committed
+~Reserved, Assigned, and Committed
+~Assigned, Deallocated, and Uncommitted
+}
+
+::GarbageCollection
+::Constructors do not have to initialize every data field.
+{TRUE}
+
+::GarbageCollection
+::The GC allocates a segment of memory, called the ___.
+{
+=Managed Heap
+~Unmanaged Heap
+~Large Object Heap
+~Small Object Heap
+}

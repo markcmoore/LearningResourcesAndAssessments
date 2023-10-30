@@ -1,0 +1,39 @@
+::Validation
+::Client-Side validation gives users ___.
+{
+=instant feedback on the information they submitted to a web page. 
+~eventual feedback on the information they submitted to a web page. 
+~instant feedback on the information they retrieved from a web page. 
+~instant response of information they submitted to a web page. 
+}
+
+::Validation
+::.NET Tag Helpers are ___. 
+{
+=designed to work with the jQuery Unobtrusive Validation script.
+~designed to work with the Microsoft Unobtrusive Validation script.
+~designed to work with the jQuery Obtrusive Validation script.
+~designed to work with the jQuery Unobtrusive Validation program.
+}
+
+::Validation
+::Web apps must manually inspect ModelState.IsValid
+{TRUE}
+
+::Validation
+::This attribute validates the field is not null.
+{
+=[Required]
+~[Range]
+~[Url]
+~[Compare]
+}
+
+::Validation
+::To make a non-nullable field nullable, ___.
+{
+=add ? at the end of the field name.
+~add & at the end of the field name.
+~add * at the end of the field name.
+~add # at the end of the field name.
+}

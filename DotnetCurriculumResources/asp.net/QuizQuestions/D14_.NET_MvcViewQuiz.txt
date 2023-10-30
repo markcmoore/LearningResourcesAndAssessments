@@ -1,0 +1,70 @@
+::MvcView
+::Which of these statements is false?
+{
+=Views are typically returned from actions as a ViewReturn.
+~View files are grouped into folders named for each of the app's controllers.
+~Views are .cshtml files that use the C# programming language in Razor markup.
+~Views separate the user interface markup from other parts of the app.
+}
+
+::MvcView
+::What is dynamic view?
+{
+=Views that don't declare a model type using @model but that have a model instance passed to them.
+~Views that don't declare a model type using @view but that have a model instance passed to them.
+~Views that declare a model type using @model and that have a model instance passed to them.
+~Views that declare a model type using @model and that have a view instance passed to them.
+}
+
+::MvcView
+::What is true about partial views?
+{
+=Shouldn't be used where complex rendering logic or code execution is required to render the markup.
+~Is a .cshtml file that renders HTML input within another markup file's rendered output.
+~Are an ineffective way to break up large markup files into smaller components and reduce the duplication of common markup content across markup files.
+~Should be used to maintain common layout elements.
+}
+
+::MvcView
+::What does strong typing mean?
+{
+=That every variable and constant has an explicitly defined type.
+~That you don't explicitly declare the type of data you're using.
+~That every variable and constant has an undefined type.
+~That you can pass small amounts of data in and out of controllers and views.
+}
+
+::MvcView
+::Where does ViewBag() derive from?
+{
+=DynamicViewData
+~ViewData
+~ViewDataDictionary
+~DynamicView
+}
+
+::MvcView
+::When is TempData useful?
+{
+=For redirection when data is required for more than a single request.
+~Implemented by TempData providers using only cookies.
+~Implemented by TempData providers using only session state.
+~For redirection when data is required for a single request.
+}
+
+::MvcView
+::Razor is a markup language for embedding server-based code into webpages.
+{FALSE}
+
+::MvcView
+::Razor blocks are bounded by [ ].
+{FALSE}
+
+::MvcView
+::What is the syntax to specify a type of model passed to a view?
+{
+=@model
+~&model
+~@bind
+~(@model)
+}

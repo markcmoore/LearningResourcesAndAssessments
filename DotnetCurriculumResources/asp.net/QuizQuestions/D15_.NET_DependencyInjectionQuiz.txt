@@ -1,0 +1,39 @@
+::DependencyInjection
+::A dependency is ___.
+{
+=anything that an object requires in order to function properly
+~anything that a program requires in order to function properly. 
+~anything that an object requires in order to function wrongly. 
+~anything that an object has in order to function properly. 
+}
+
+::DependencyInjection
+::Dependency injection ___.
+{
+=addresses service dependency problems
+~is offered by the Microsoft Framework
+~is registered in Startup.Services
+~is created inside a method of a class
+}
+
+::DependencyInjection
+::The first step to implementing DI is ___.
+{
+=Create an interface where you declare a method that you want to make available through Dependency Injection.
+~Create a class where you declare a method that you want to make available through Dependency Injection.
+~Create an interface where you instantiate a method that you want to make available through Dependency Injection.
+~Create an interface where you declare a method that you want to make unavailable through Dependency Injection.
+}
+
+::DependencyInjection
+::After registering a service with the service container, ___. 
+{
+=the [FromServices] attribute enables injecting the registered service directly into an action method without using constructor injection in the Controller.
+~the [ToServices] attribute enables injecting the registered service directly into an action method without using constructor injection in the Controller.
+~the [FromServices] attribute disables injecting the registered service directly into an action method without using constructor injection in the Controller.
+~the [FromServices] attribute enables injecting the registered service indirectly into an action method without using constructor injection in the Controller.
+}
+
+::DependencyInjection
+::When you are unable to obtain an instance of a needed service by Dependency Injection, .GetService<> can be used to get a service object. 
+{TRUE}

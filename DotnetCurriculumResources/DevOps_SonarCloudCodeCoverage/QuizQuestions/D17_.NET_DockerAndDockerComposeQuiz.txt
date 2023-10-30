@@ -1,0 +1,46 @@
+::DockerAndDockerCompose
+::docker compose uses a ___ to configure your application’s services.
+{
+=.yml file
+~.pdf file
+~.json file
+~.exe file
+}
+
+::DockerAndDockerCompose
+::What are the steps to use docker compose?
+{
+~%33%Define your app’s environment with a Dockerfile so it can be reproduced anywhere.
+~%-33%Define your app’s environment with a .yml so it can be reproduced anywhere.
+~%33%Define the services that make up your app in docker-compose.yml so they can be run together in an isolated environment.
+~%-33%Define the services that make up your app in docker-compose.yml so they can be run together in an shared environment.
+~%34%Run docker-compose up and the Compose app starts and runs your entire app.
+~%-34%Run docker-start up and the Compose app starts and runs your entire app.
+}
+
+::DockerAndDockerCompose
+::What is a benefit of Docker Compose?
+{
+=Compose re-uses existing containers if they haven’t been changed.
+~Preserve application data when containers are created.
+~Projects run dependent on each other. 
+~You can only have a single environment on one host.
+}
+
+::DockerAndDockerCompose
+::The Compose File is used to ___.
+{
+=automate testing configurations and dependencies so that workflows are automated and end-to-end testing is faster and easier.
+~manually test configurations and dependencies so that workflows and end-to-end testing is faster and easier.
+~automate testing configurations and dependencies so that workflows are automated and end-to-end testing is faster and breaks easily.
+~automate testing configurations and dependencies so that workflows are appoved and end-to-end testing is faster and easier.
+}
+
+::DockerAndDockerCompose
+::A Dockerfile is 
+{
+=a text document that contains all the commands a user could call on the command line to assemble a Docker image. 
+~a JSON document that contains all the commands a user could call on the command line to assemble a Docker image. 
+~a .xml document that contains all the commands a user could call on the command line to assemble a Docker image. 
+~a .exe document that contains all the commands a user could call on the command line to assemble a Docker image. 
+}

@@ -1,0 +1,36 @@
+::.NET Framework
+::What is the API specification common to all implementations of .NET?
+{
+	=.NET Standard
+	~.NET Framework
+	~.NET Core
+	~.NET Mono
+}
+
+::.NET Standard
+::The .NET Standard is a specification of .NET APIs that make up a uniform set of contracts that you compile your code against. This enables _______ across different .NET implementations, allowing your code to run everywhere.
+{
+	=portability
+	~mobility
+	~support
+	~implementation
+}
+
+::.NET Standard
+::Which of the following steps used to find the highest version of .NET Standard that you can target is incorrect? (Select all that apply)
+{
+	~%50%Find the row that indicates the .NET implementation you want to turn on.
+	~%50%The column header indicates the .NET Standard version that your target supports. You may also target any upper .NET version. Lower .NET versions will also support your implementation.
+	~%-50%Find the column in that row that indicates your version starting from right to left.
+	~%-50%Repeat this process for each platform you want to target. If you have more than one target platform, you should pick the smaller version among them. For example, if you want to run on .NET Framework 4.5 and .NET Core 1.0, the highest .NET Standard version you can use is .NET Standard 1.1.
+}
+
+::.NET Standard
+::The higher the .NET Standard version, the more APIs are available to you.
+{
+	TRUE	
+}
+
+::.NET Standard
+::Once finalized, .NET Standard versions are frozen. 
+{TRUE}

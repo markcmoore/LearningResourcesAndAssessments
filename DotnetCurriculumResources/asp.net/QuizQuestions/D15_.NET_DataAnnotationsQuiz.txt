@@ -1,0 +1,34 @@
+::DataAnnotations
+::Data Annotation validators enable you to perform validation simply by adding one or more attributes to a Model class property.
+{TRUE}
+
+::DataAnnotations
+::The DataAnnotations namespace 
+{
+=provides a set of built-in validation attributes that are applied declaratively to a class or property. 
+~provides a set of custom validation attributes that are applied declaratively to a class or property. 
+~provides a set of built-in verification attributes that are applied declaratively to a class or property. 
+~provides a suite of built-in validation attributes that are applied declaratively to a class or property. 
+}
+
+::DataAnnotations
+::The annotation to display a different name is ___.
+{
+=[Display()]
+~[Name()]
+~[Show()]
+~[WebSiteName()]
+}
+
+::DataAnnotations
+::The annotation to set minimum and maximum values for an input field is ___.
+{
+=[Range(x,y)]
+~[Length(x,y)]
+~[MinMaxLength(x,y)]
+~[Size(x,y)]
+}
+
+::DataAnnotations
+::You can use regular expressions in your views.
+{FALSE}

@@ -1,0 +1,70 @@
+::MvcController
+::What is false about CONTROLLERS?
+{
+=Are requests made against an ASP.NET MVC website.
+~Inherits useful methods from the Controller base class.
+~Is a regular C# class that derives from the base System.Web.Mvc.Controller class.
+~Each browser request is mapped to a particular controller.
+}
+
+::MvcController
+::Which segment is the controller class of this URL? "http://localhost/Product/Index/3"
+{
+=Product
+~localhost
+~3
+~Index
+}
+
+::MvcController
+::What usually happens if a controller is not supplied?
+{
+=The controller defaults ‘Home’.
+~The action defaults to ‘Index'.
+~The controller defaults to an empty string.
+~The controller defaults to ‘Index'.
+}
+
+::MvcController
+::A private method can be used as a controller action.
+{FALSE}
+
+::MvcController
+::What is the result of 'return Content("Hello World!");'
+{
+=Returns text to the browser.
+~Returns a HTML View to the browser.
+~Returns empty.
+~Calls another Action Method.
+}
+
+::MvcController
+::Which filter can be used for logging?
+{
+=Exception filters
+~Authorization filters
+~Result filters
+~Action filters
+}
+
+::MvcController
+::How do you prevent an invalid value from being passed to the Action Method?
+{
+=By defining constraints when defining routes.
+~By checking the value of the parameter only.
+~By handling the input correctly.
+~By applying more than one action filter at a time.
+}
+
+::MvcController
+::The default method of an Html Form is POST
+{TRUE}
+
+::MvcController
+::What is the last part of the URL query?
+{
+=The parameter
+~The argument
+~The controller
+~The action method
+}

@@ -1,0 +1,39 @@
+::Delegates
+::When you instantiate a delegate, you can associate its instance with any method.
+{FALSE}
+
+::Delegates
+::A delegate is a type that represents a reference to a ___.
+{
+=method
+~class
+~namespace
+~action
+}
+
+::Delegates
+::Reference arguments are passed sequentially to each method ___. 
+{
+=in turn
+~at the same time
+~that is void
+~upon returning
+}
+
+::Delegates
+::Action Delegates always return ___.
+{
+=void 
+~a reference
+~a boolean value
+~asynchronously
+}
+
+::Delegates
+::If your event does generate data, you must use the generic ___.
+{
+=EventHandler<TEventArgs> delegate class
+~Event<TEventArgs> delegate class
+~EventHandler<TEventArgs> delegate method
+~EventHandler<TReturn> delegate class
+}

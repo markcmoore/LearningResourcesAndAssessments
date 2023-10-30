@@ -1,0 +1,32 @@
+::LINQ
+::___ is the name for a set of technologies based on the integration of query capabilities directly into the C# language.
+{
+=Language-Integrated Query
+~Query Expression
+~Method Expression
+~IQueryable
+}
+
+::LINQ
+::A/An ___ is a set of instructions that describes what data to retrieve from a given data source 
+{
+=query
+~List
+~expression
+~clause
+}
+
+::LINQ
+::It is recommended to use ___ whenever possible and method syntax whenever necessary.
+{
+=query syntax / method syntax
+~method syntax / query syntax
+}
+
+::LINQ
+::A query can retrieve a superset of the elements to produce a new sequence without modifying the individual elements. 
+{FALSE}
+
+::LINQ
+::There are three Query Expression syntaxes
+{FALSE}

@@ -1,0 +1,71 @@
+::Code Structure
+::A procedure contains ___.
+{
+	=a series of computational steps to be carried out.
+	~a programs execution instructions.
+	~non-human-readable code.
+	~namespaces, types and members.
+}
+
+::Code Structure
+::When C# programs are compiled, ___.
+{
+	=they're physically packaged into assemblies.
+	~they're virtually packaged as libraries
+	~they're virtually packaged into assemblies
+	~they do not contain classes.
+}
+
+::Code Structure
+::C# uses ____ to specify scope.
+{
+	={}
+	~[]
+	~()
+	~""
+}
+
+::Code Structure
+::To create a new .NET console program and a build script,
+{
+	=use the command `dotnet new console`.
+	~use the command `dotnet console`.
+	~use the command `dotnet new console app`.
+	~use the command `.net new console`.
+}
+
+::Code Structure
+::The entrypoint of a .NET program is
+{
+	=a static method named Main.
+	~a namespace that has the same name as the folder name.
+	~a void method named Main.
+	~a namespace declared at creation of the program.
+}
+
+::Code Structure
+::Hostbuilder is ___.
+{
+	=.NET Core Generic Host.
+	~the program that hosts your code.
+	~and object that encapsulates an applications resources.
+	~typically configured, built and run by code in Program.cs
+}
+
+::Code Structure
+::C# supports two kinds of variable types
+{
+	=value and reference
+	~reference and out
+	~user-defined and value
+	~primitive and complex
+}
+
+::Code Structure
+::Literals, fields, Local variables, and expressions are
+{
+	=operands
+	~operators
+	~values
+	~expressions
+}

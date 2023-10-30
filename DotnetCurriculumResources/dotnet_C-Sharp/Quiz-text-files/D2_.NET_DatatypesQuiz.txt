@@ -1,0 +1,45 @@
+::DataTypes
+::A data type is a ______.
+{
+=simple type.
+~complex type.
+~primitive type.
+~attribute.
+}
+
+::DataTypes
+::All data types ___
+{
+=inherit from the base Class Object. 
+~are common among classes
+~enable the user to built classes
+~are primitive types
+}
+
+::DataTypes
+::Value types are ___.
+{
+=char, int, bool, and float
+~user-defined types declared with object
+~class, Interface, array and delegate types
+~variables of reference types.
+}
+
+::DataTypes
+::Integral numeric types represent 
+{
+=integer numbers
+~dynamic numbers
+~reference numbers
+~value numbers
+}
+
+
+::DataTypes
+::A structure type (struct) is 
+{
+=a value type
+~encapsulated data
+~a struct
+~reference type
+}

@@ -1,0 +1,39 @@
+::DataDefinitionLanguageSQLDataTypes
+::A software system used to maintain a relational database is called a Rational Database Management System (RDBMS). 
+{FALSE}
+
+::DataDefinitionLanguageSQLDataTypes
+::(Choose all that apply)What are the types of statements in SQL?
+{
+~%50%Data Definition Language 
+~%50%Data Manipulation Language
+~%-50%Data Query Language
+~%-50%Data Control Language
+}
+
+::DataDefinitionLanguageSQLDataTypes
+::Data Definition Language (DDL) statements ___.
+{
+=define the structure of the DB
+~define the language for the DB
+~determine the data types in the DB
+~decide the number of tables in the DB
+}
+
+::DataDefinitionLanguageSQLDataTypes
+::(Choose all that apply)Which are required to create a table?
+{
+~%25%a name for the table
+~%25%a name of each column 
+~%25%a data type of each column
+~%25%a unique primary key.
+~%-25%a name for the schema 
+~%-25%a constraint on if the column can be null
+~%-25%a Foreign Key
+~%-25%a common Primary Key
+}
+
+::DataDefinitionLanguageSQLDataTypes
+::SUM() is not an aggregate function.
+{FALSE}
+

@@ -1,0 +1,39 @@
+::Filters
+::Filters in ASP.NET Core allow ___.
+{
+=code to be run before or after specific stages in the request processing pipeline.
+~code to be run after specific stages in the request processing pipeline.
+~code to be run before specific stages in the request processing pipeline.
+~code to be run before or after specific stages in the response processing pipeline.
+}
+
+::Filters
+::Filters work directly with Razor components.
+{FALSE}
+
+::Filters
+::A resource filter is run ___ authorization
+{
+=after
+~before
+~during
+}
+
+::Filters
+::Filters work like middleware in that ___.
+{
+=they surround the execution of everything that comes later in the pipeline.
+~they surround the compilation of everything that comes later in the pipeline.
+~they surround the execution of everything that comes later in the program.
+~they surround the execution of everything that comes before in the pipeline.
+}
+
+::Filters
+::Action Filters ___.
+{
+=Implement either the IActionFilter or IAsyncActionFilter interface.
+~Implement either the IFilter or IActionFilter interface.
+~execution follows the execution of action methods.
+~execution surrounds the execution of inaction methods.
+}
+

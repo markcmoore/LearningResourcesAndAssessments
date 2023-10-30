@@ -1,0 +1,40 @@
+::Modifiers
+::Modifiers are C# keywords used to modify declarations of ___.
+{
+=types and type members
+~namespaces and variables
+~variables and objects
+~objects and classes
+}
+
+::Modifiers
+::'abstract' means ___
+{
+=the thing being modified has a missing or incomplete implementation.
+~the thing being instantiated has a missing or incomplete implementation.
+~the thing being instantiated has a missing or complete implementation.
+~the thing being modified has a flawed or incomplete implementation.
+}
+
+::Modifiers
+::'virtual' means
+{
+=a member can be overridden in a derived class.
+~a member cannot be overridden in a derived class.
+~a member cannot be instantiated or extended.
+~fields and locals aren't variables and may not be modified. 
+}
+
+::Modifiers
+::When overriding a member, __.
+{
+=you must provide a new implementation of an inherited method 
+~you must must have a different signature than the inherited method.
+~both methods must be const, abstract, or override.
+~you can use the static, or virtual modifiers to modify an override method.
+}
+
+::Modifiers
+::You can split the definition of a class, a struct, an interface or a method over two or fewer source files. 
+{FALSE}
+

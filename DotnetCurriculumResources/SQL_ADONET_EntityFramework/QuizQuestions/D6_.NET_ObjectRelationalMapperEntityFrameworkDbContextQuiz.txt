@@ -1,0 +1,44 @@
+::Object/RelationalMapperEntityFrameworkDbContext
+::An O/RM enables developers to work with a database using ___.
+{
+=objects
+~entities
+~Models
+~OOP
+}
+
+::Object/RelationalMapperEntityFrameworkDbContext
+::Which type of values do most DB's store and manipulate?
+{
+=scalar values
+~strongly-typed values
+~weakly-typed values
+~related values
+}
+
+::Object/RelationalMapperEntityFrameworkDbContext
+::EF Core enables .NET developers to work with a database using .NET ___.
+{
+=objects 
+~Framework
+~Models
+~Entities
+}
+
+::Object/RelationalMapperEntityFrameworkDbContext
+::(Choose all that apply)Which are ways to use Entity Framework?
+{
+~%34%generate a Model from an existing database
+~%33%use EF Migrations to create a new database from an existing Model
+~%33%hand-code a Model to match your existing database
+~%-100%create a database and import the settings with Entity Framework
+}
+
+::Object/RelationalMapperEntityFrameworkDbContext
+::There is a DbSet<> for each ___ in your Model.
+{
+=type
+~class
+~property
+~entity
+}

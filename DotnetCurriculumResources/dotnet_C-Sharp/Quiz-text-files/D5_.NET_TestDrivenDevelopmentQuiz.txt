@@ -1,0 +1,39 @@
+::TestDrivenDevelopment
+::Test-driven development (TDD) is ___.
+{
+=a software development process that relies on the repetition of a very short development cycle.
+~a software development process that relies on the repetition of a very long development cycle.
+~a software development language that relies on the repetition of a very short development cycle.
+~a software development process that relies on the repetition of a very short unicycle.
+}
+
+::TestDrivenDevelopment
+::Unit testing is ___.
+{
+=breaking down the functionality of your program into discrete testable behaviors that you can test as individual units. 
+~breaking down the methods of your program into discrete testable sub-methods that you can test as individual units. 
+~combining the functionality of your program into large units that you can test individually
+~breaking down the functionality of your class into discrete testable properties that you can test as individual units. 
+}
+
+::TestDrivenDevelopment
+::The first step in TDD is ___.
+{
+=Write a test case.
+~Create a class.
+~Instantiate the class.
+~Look for a method to test.
+}
+
+::TestDrivenDevelopment
+::Testing is just as important as coding
+{TRUE}
+
+::TestDrivenDevelopment
+::Three types of tests are ___.
+{
+=integration tests, web tests, and load tests.
+~integration tests, end-to-end tests, and load tests.
+~integration tests, web tests, and bug tests.
+~desintegration tests, web tests, and load tests.
+}

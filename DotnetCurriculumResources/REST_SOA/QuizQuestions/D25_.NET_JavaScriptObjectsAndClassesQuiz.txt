@@ -1,0 +1,29 @@
+::JavaScriptObjectsAndClasses
+::A Class is a function
+{TRUE}
+
+::JavaScriptObjectsAndClasses
+::It is not possible to access any property in an object.
+{FALSE}
+
+::JavaScriptObjectsAndClasses
+::An object cannot be assigned another object or function after being created.
+{FALSE}
+
+::JavaScriptObjectsAndClasses
+::(Select all that apply)The following are conventions for Constructor Functions.
+{
+~%50%They are named with capital letter first.
+~%50%They should be executed only with "new" operator.
+~%-50%They are written in camel-case.
+~%-50%They must be public.
+}
+
+::JavaScriptObjectsAndClasses
+::Ther can be multiple constructors in a class.
+{FALSE}
+
+::JavaScriptObjectsAndClasses
+::'__proto__' is considered outdated and somewhat deprecated 
+{TRUE}
+

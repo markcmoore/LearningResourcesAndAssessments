@@ -1,0 +1,39 @@
+::QueryingWithSqlAndLinq
+::(Choose all that apply)Which are O/RM patterns to load data? 
+{
+~%50%Eager Loading
+~%50%Lazy Loading
+~%-50%Expansive loading
+~%-50%Realistic Loading
+}
+
+::QueryingWithSqlAndLinq
+::Lazy Loading is the default behavior of Entity Framework.
+{TRUE}
+
+::QueryingWithSqlAndLinq
+::.ThenInclude() allows you to what?
+{
+=drill down through relationships to include multiple levels of related data 
+~include another table in your query
+~specify related data from multiple relationships
+~populate the return with related posts.
+}
+
+::QueryingWithSqlAndLinq
+::What does tracking do?
+{
+=controls whether Entity Framework Core will keep information about an entity instance in its “change tracker”
+~controls whether .NET Framework will keep information about an entity instance in its “change tracker”
+~controls whether Entity Framework Core will keep information about a Model instance in its “change tracker”
+~controls whether Entity Framework Core will save information about an entity instance in its “change tracker”
+}
+
+::QueryingWithSqlAndLinq
+::Which type of query should you make if you don't need to change anything in the database?
+{
+=noTracking
+~tracking
+~rawSQL
+~LINQ
+}

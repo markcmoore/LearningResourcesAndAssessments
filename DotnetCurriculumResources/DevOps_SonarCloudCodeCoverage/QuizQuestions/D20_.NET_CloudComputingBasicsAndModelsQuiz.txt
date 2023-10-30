@@ -1,0 +1,34 @@
+::CloudComputingBasicsAndModels
+::Moving to a larger or smaller instance or upgrading/downgrading your resources is Vertical Scaling.
+{TRUE}
+
+::CloudComputingBasicsAndModels
+::Adding or removing instances to a service, system, or application is Vertical Scaling.
+{FALSE}
+
+::CloudComputingBasicsAndModels
+::Zones should be ___ within a region
+{
+=considered a single failure domain
+~speed-optimized
+~committed to a service provider 
+~physically located at an on-site datacenter
+}
+
+::CloudComputingBasicsAndModels
+::A Hybrid Cloud is ___.
+{
+=bound together by technology that allows data and applications to be shared between them. 
+~services and infrastructure are maintained on a private network
+~owned and managed by the cloud provider
+~owned and operated by third-party cloud service providers
+}
+
+::CloudComputingBasicsAndModels
+::Infrastructure as a Service (IaaS) ___.
+{
+=quickly scales up and down with demand to avoid the expense of buying your own servers 
+~supplies an on-demand environment for developing, testing, delivering, and managing software applications
+~hosts and manages the software application and underlying infrastructure and handle any maintenance 
+~
+}

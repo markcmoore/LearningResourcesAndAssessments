@@ -1,0 +1,45 @@
+::AsyncAndAwait
+::Asynchronous programming ___
+{
+=enables code that reads like a sequence of statements but executes in a much more complicated order based on external resource allocation and when tasks complete.
+~enables code that runs like a sequence of statements and executes in a much more complicated order based on external resource allocation and when tasks complete.
+~enables code that reads like a sequence of statements but executes in a much less complicated order based on external resource allocation and when tasks complete.
+~enables code that reads like a sequence of statements but executes in a much more complicated order based on internal resource allocation and when tasks complete.
+}
+
+::AsyncAndAwait
+::Asynchrony is essential for ___. 
+{
+=potentially blocking code
+~complicated code
+~accessing a database
+~removing bugs in code.
+}
+
+::AsyncAndAwait
+::An async method uses the ____ operator to continue doing work without blocking the caller’s thread.
+{
+=await
+~static
+~override
+~virtual
+}
+
+::AsyncAndAwait
+::By using the keywords async and await, you can use resources in ___ to create an asynchronous method.
+{
+=.NET Framework
+~C#
+~computer science
+~software
+}
+
+::AsyncAndAwait
+::An async method can have only the return types ___.
+{
+=Task or Task<TResult>
+~void or bool
+~Task or void
+~bool or Task
+}
+

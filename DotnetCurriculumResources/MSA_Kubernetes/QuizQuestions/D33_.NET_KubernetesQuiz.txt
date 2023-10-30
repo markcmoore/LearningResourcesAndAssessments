@@ -1,0 +1,64 @@
+::Kubernetes
+::Kubernetes is ___.
+{
+=a portable, extensible, open-source platform for managing containerized workloads and services
+~a portable, static, open-source platform for managing containerized workloads and services
+~a portable, extensible, proprietary platform for managing containerized workloads and services
+~a portable, extensible, open-source platform for managing virtualized workloads and services
+}
+
+::Kubernetes
+::Kubernetes takes care of scaling and failover and provides deployment patterns.
+{TRUE}
+
+::Kubernetes
+::When you deploy Kubernetes, ___.
+{
+=you get a cluster
+~you get a pod
+~you get a node
+~you get a container
+}
+
+::Kubernetes
+::Control plane components ___.
+{
+=can be run on any machine in the cluster
+~are designed to scale horizontally
+~maintain all the clusters’ data
+~populates the Endpoints object 
+}
+
+::Kubernetes
+::There are __ controller processes.
+{
+=4
+~3
+~2
+~5
+}
+
+::Kubernetes
+::The cloud-controller-manager ___.
+{
+=will separate the components that interact with your cloud platform from components that only interact with your cluster.
+~will combine the components that interact with your cloud platform with components that only interact with your cluster.
+~will separate the processes that interact with your cloud platform from components that only interact with your cluster.
+~will separate the components that interact with your local platform from components that only interact with your cluster.
+}
+
+::Kubernetes
+::A Kubelet agent runs on each node in the cluster.
+{TRUE}
+
+::Kubernetes
+::The kubelet even manages containers which were not created by Kubernetes
+{FALSE}
+
+::Kubernetes
+::Kubernetes does not support Docker.
+{FALSE}
+
+::Kubernetes
+::Deployment Controller changes the actual state to the desired state at a controlled rate. 
+{TRUE}

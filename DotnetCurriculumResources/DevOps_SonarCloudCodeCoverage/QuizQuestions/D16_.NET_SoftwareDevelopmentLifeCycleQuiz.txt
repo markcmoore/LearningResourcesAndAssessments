@@ -1,0 +1,107 @@
+::SoftwareDevelopmentLifeCycle
+::When is the cost of error correction the lowest during the SDLC?
+{
+=At the beginning, during requirements gathering.
+~At the middle, during development.
+~At the end, during deploying.
+~It is the same throughout.
+}
+
+::SoftwareDevelopmentLifeCycle
+::Which statement is false of a burn down chart?
+{
+=Represents time that wasn't used properly.
+~Shows how much work is left of a project.
+~Is different from a burn up chart.
+~Can show either user story points or hours spent on project.
+}
+
+::SoftwareDevelopmentLifeCycle
+::What is a benefit to product owners and managers when using Agile Kanban?
+{
+=Implementation order of features can be easily changed with the backlog.
+~Every feature is documented, so future developers can be productive faster.
+~Managers can demand features be completed quickly.
+~Project managed using Agile allow developers to be swapped in and out.
+}
+
+::SoftwareDevelopmentLifeCycle
+::What is a disadvantage of Spiral Model?
+{
+=Too dependent on risk analysis.
+~This model is too rigid for most situations.
+~The requirements are implemented on the fly without much analysis.
+~Flexibility in requirements.
+}
+
+::SoftwareDevelopmentLifeCycle
+::What is a backlog in Agile development?
+{
+=A list of set tasks that must be completed before the product is released.
+~The time frame in which the work must be completed.
+~The team discusses top priority user stories and decides what can be delivered in the sprint.
+~Record of all the task done daily.
+}
+
+::SoftwareDevelopmentLifeCycle
+::What is a condition that makes V-Model useful?
+{
+=Product requirements are well defined and will not change during development.
+~Integration, testing and validation needs to be performed during implementation.
+~Design requirements are vague, requiring development to be flexible.
+~Efficient testing with exploratory testing.
+}
+
+::SoftwareDevelopmentLifeCycle
+::What is a disadvantage of the Big Bang Model?
+{
+=High risk if requirements were misunderstood.
+~Complex planning phase.
+~Difficult learning curve.
+~Each phase requires the previous to be done.
+}
+
+::SoftwareDevelopmentLifeCycle
+::Which of the following would not be considered a trait of the Waterfall model?
+{
+=Is mainly used by projects that want to maintain low overhead and documentation.
+~Redesign and changing requirements is impractical and have high costs.
+~An altered version with overlapping phases named Sashimi exists.
+~Is structured and linear, ensuring each phase is completed before moving on to the next.
+}
+
+::SoftwareDevelopmentLifeCycle
+::Phases of the Iterative model include which of the following:
+{
+=Inception
+~Turnover
+~Conception
+~Embellishment
+}
+
+::SoftwareDevelopmentLifeCycle
+::Which of the following is NOT true about Daily Scrum meetings?
+{
+=Is intended as a problem solving discussion.
+~Used to coordinate activities for the following day.
+~Is not intended for status reporting.
+~A short (usually limited to 15 minutes) discussion.
+}
+
+::SoftwareDevelopmentLifeCycle
+::CMMI consists of three overlapping disciplines, which is not one of these disciplines?
+{
+=CMMI for Program (CMMI-PRO)
+~CMMI for Services (CMMI-SVC)
+~CMMI for Acquisition (CMMI-ACQ)
+~CMMI for Development (CMMI-DEV)
+}
+
+::SoftwareDevelopmentLifeCycle
+::Which of the following is one of the 12 development principles of Agile?
+{
+=Face-to-face conversation is the best form of communication (co-location).
+~Welcome changing requirements, except in late development.
+~Documentation is the primary measure of progress.
+~Best architectures, requirements, and designs emerge from company organized teams.
+}

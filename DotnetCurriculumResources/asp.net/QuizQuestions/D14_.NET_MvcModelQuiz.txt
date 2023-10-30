@@ -1,0 +1,89 @@
+::MvcModel
+::Which is true about Model?
+{
+=The model receives user input from the view through the controller.
+~The model receives user input from the controller through the view.
+~The view receives user input from the model through the controller.
+~The controller receives user input from the model through the view.
+}
+
+::MvcModel
+::What does the Model manage?
+{
+=The data, logic and rules of the application.
+~None of the above.
+~The logical rules of the application.
+~The data and rules of the application.
+}
+
+::MvcModel
+::In Controllers, where does the data come from?
+{
+=HTTP requests
+~HTTP responses
+~HTTP actions
+~HTTP data
+}
+
+::MvcModel
+::Which of the statements is false about the model binding system?
+{
+=The model binding system converts string data to Java types.
+~The model binding system updates properties of complex types.
+~The model binding system provides the data to controllers as method parameters and public properties.
+~The model binding system retrieves data from various sources such as route data, form fields, and query strings.
+}
+
+::MvcModel
+::What is the best description for the attribute [BindRequired]?
+{
+=Causes model binding to add a model state error if binding cannot occur for a model's property.
+~Specifies which properties of a model should be included in model binding.
+~Prevents model binding to add a model state error if binding cannot occur for a model's property.
+~Causes model binding to remove a model state error if binding cannot occur for a model's property.
+}
+
+::MvcModel
+::What is the best description for the attribute [BindNever]?
+{
+=Prevents model binding from setting a model's property.
+~Prevents model binding to add a model state error if binding cannot occur for a model's property.
+~Causes model binding to set a model's property.
+~Causes model binding to add a model state error if binding cannot occur for a model's property.
+}
+
+::MvcModel
+::What is the best description for the attribute [Bind]?
+{
+=Specifies which properties of a model should be included in model binding.
+~Defines which properties of a model should not be included in model binding.
+~Prevents model binding from setting a model's property.
+~Causes model binding to add a model state error if binding cannot occur for a model's property.
+}
+
+::MvcModel
+::What happens to the model state if a source is found but can't be converted into the target type?
+{
+=HTTP 400 response.
+~HTTP 500 response.
+~HTTP 200 response.
+~HTTP 300 response.
+}
+
+::MvcModel
+::Which of these statements is true?
+{
+=Both model binding and model validation occur before the execution of a controller action.
+~Both model binding and model validation occur after the execution of a controller action.
+~Only model binding occurs before the execution of a controller action.
+~Neither model binding and model validation occur before the execution of a controller action.
+}
+
+::MvcModel
+::A Weak Type is...
+{
+=when you don't explicitly declare the type of data you're using.
+~when you explicitly declare the type of controller you're using.
+~when you explicitly declare the type of data you're using.
+~when you don't explicitly declare the type of controller you're using.
+}

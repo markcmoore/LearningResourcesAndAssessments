@@ -1,0 +1,89 @@
+::DevOpsFundamentals
+::What is not an essential DevOps practice?
+{
+=Continuous Communication
+~Monitoring of applications
+~Continuous Integration
+~Agile planning
+}
+
+::DevOpsFundamentals
+::What is true about Cycle Time?
+{
+=You act by delivering working software to real users.
+~The client decides what goals to pursue.
+~You select three options for what you can deliver.
+~You observe the market needs and their overall behavior.
+}
+
+::DevOpsFundamentals
+::How can you get Validated Learning?
+{
+=Through each cycles feedback.
+~Only when you go to the next loop.
+~During the cycle time.
+~When the client gives you feedback.
+}
+
+::DevOpsFundamentals
+::What is an important aspect of the implementation of DevOps?
+{
+=Validated Learning helps shorten the Cycle Time.
+~Validated Learning helps extend the Cycle Time.
+~Cycle Time helps shorten the Validated Learning.
+~Cycle Time helps extend the Validated Learning.
+}
+
+::DevOpsFundamentals
+::How do you shorten Cycle Time?
+{
+=Continuous integration and continuous delivery
+~Continuous delivery
+~Continuous integration
+~With efficient practices and tools
+}
+
+::DevOpsFundamentals
+::What is CI?
+{
+=The process of automating the build and testing of code every time a team member commits changes to version control.
+~The process of automating the build and testing of code the first time a team member commits changes to version control.
+~The process of automating the testing of code every time a team member commits changes to version control.
+~The process of automating the build of code every time a team member commits changes to version control.
+}
+
+::DevOpsFundamentals
+::What does the developer submit when a feature is complete?
+{
+=pull request
+~push request
+~his changes
+~the pipeline
+}
+
+::DevOpsFundamentals
+::Why would a release pipeline be created?
+{
+=To automate the deployment of a new build.
+~To prevent a bottleneck in an application.
+~To prevent delays and errors.
+~To optimize process time and eliminates idle time.
+}
+
+::DevOpsFundamentals
+::What happens if CD is not implemented?
+{
+=Software release cycles are a bottleneck for application and operations teams.
+~Software allows a “fail fast” approach to validation.
+~Software automate the deployment of a new build.
+~Software triggers an automated build system to grab the latest code from the shared repository.
+}
+
+::DevOpsFundamentals
+::What are the parts of the OODA Loop?
+{
+=Observe, Act, Decide, Orient
+~Decide, Orient, Act,  Order
+~Desperate, Orangutans, Orphan, Adults
+~Deride, Act, Orient, Observe
+}

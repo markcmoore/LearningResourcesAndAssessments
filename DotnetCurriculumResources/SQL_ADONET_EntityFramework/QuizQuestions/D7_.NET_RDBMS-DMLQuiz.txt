@@ -1,0 +1,75 @@
+::RDBMS-DML
+::What do you call a software system used to maintain relational databases?
+{
+=Relational Database Management System
+~Rational Database Management System
+~Relational Database Management Structure
+~Rational Database Management Structure
+}
+
+::RDBMS-DML
+::RDBMS are based on what?
+{
+=On a relational model of data proposed by E. F. Codd in 1970
+~On a rational model of data proposed by E. F. Codd in 1970
+~On a relational model of data proposed by E. F. Codd in 1981
+~On a rational model of data proposed by E. E. Codd in 1971
+}
+
+::RDBMS-DML
+::How do you control how SQL obtains the data you want?
+{
+=You can't.
+~BY including data query.
+~By declarative language.
+~By relational calculus.
+}
+
+::RDBMS-DML
+::What are the two main types of statements in SQL?
+{
+=Data Definition Language and Data Manipulation Language.
+~Data Definitive Language and Data Manipulation Language.
+~Data Definition Language and Data Manipulative Language.
+~Data Type and Data Language.
+}
+
+::RDBMS-DML
+::Which of these is NOT a SQL Commands category?
+{
+=Data Quality Language
+~Data Definition Language
+~Data Manipulation Language
+~Data Control Language
+}
+
+::RDBMS-DML
+::Which commands are part of DML?
+{
+=INSERT, UPDATE, DELETE, and TRUNCATE.
+~INSERT, UPDATE, DELETE, and TERMINATE.
+~INSERT, UPDATE, and DELETE.
+~INSERT, DELETE, and TRUNCATE.
+}
+
+::RDBMS-DML
+::These are keywords in SQL Queries ___.
+{
+=UPDATE, INSERT, and DELETE.
+~CHANGE, INSERT, and DELETE.
+~UPDATE, INSERT, and REMOVE.
+~CHANGE, ADD, and REMOVE.
+}
+
+::RDBMS-DML
+::SQL Queries have a specific syntax and structure.
+{TRUE}
+
+::RDBMS-DML
+::What does "SELECT COUNT(ProductID) FROM Product;" return?
+{
+=The quantity of ProductID's from the Products table
+~The total number of products from the ProductID table.
+~The sum of ProductID's from the Products table
+~none of the above
+}

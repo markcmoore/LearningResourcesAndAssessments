@@ -1,0 +1,39 @@
+::JoinsUnionsAndSubqueries
+::A JOIN is ___.
+{
+=a means for combining columns from one or more tables
+~a means for combining columns from multiple tables
+~a means for dividing columns from one or more tables
+~a means for combining entities from one or more tables
+}
+
+::JoinsUnionsAndSubqueries
+::A JOIN statement defines the ___ between the tables by using keywords
+{
+=relationship 
+~connections
+~alliance
+~similarities
+}
+
+::JoinsUnionsAndSubqueries
+::Another word for a JOIN is ___.
+{
+=INNER JOIN
+~PARTIAL JOIN
+~FULL JOIN
+~JOIN ALL
+}
+
+::JoinsUnionsAndSubqueries
+::The first table mentioned in the query is the "left" table and the second table is the "right" table. 
+{TRUE}
+
+::JoinsUnionsAndSubqueries
+::In a UNION ALL ___.
+{
+=The columns must have similar data types
+~One SELECT statement within UNION ALL must have a greater number of columns
+~The columns in each SELECT statement must be in ascending order.
+~UNION ALL returns only duplicates.
+}

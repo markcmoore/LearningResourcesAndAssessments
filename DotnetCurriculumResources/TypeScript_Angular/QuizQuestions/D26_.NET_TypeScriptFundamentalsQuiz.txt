@@ -1,0 +1,65 @@
+::TypeScriptFundamentals
+::A static typechecker ___.
+{
+=is a tool that runs before your code runs (static) to ensure that the types of the program are correct (typechecked).
+~is a tool that runs after your code runs (static) to ensure that the types of the program are correct (typechecked).
+~is a tool that runs before your code quits (static) to ensure that the types of the program are correct (typechecked).
+~is a tool that runs before your code runs (static) to ensure that the files of the program are correct (typechecked).
+}
+
+::TypeScriptFundamentals
+::Transpiling is a specific term for taking source code written in one language and transforming into another language that has a lower level of abstraction, 
+{FALSE}
+
+::TypeScriptFundamentals
+::. TS infers the types of values and enforces these types throughout the program.
+{TRUE}
+
+::TypeScriptFundamentals
+::TS changes the runtime behavior of JS code.
+{FALSE}
+
+::TypeScriptFundamentals
+::TypeScript includes all the primitive types of JavaScript plus adds some new ones.
+{TRUE}
+
+::TypeScriptFundamentals
+::TS supports classes and OOP, so an interface declaration cannot be used with classes.
+{FALSE}
+
+::TypeScriptFundamentals
+::TypeScript adds 'any', 'unknown', 'never', and 'void' to JavaScripts types.
+{TRUE}
+
+::TypeScriptFundamentals
+::Type Assertion performs a special checking and restructuring of data. 
+{FALSE}
+
+::TypeScriptFundamentals
+::The compiler only checks that at least the variable names required are present in args passed to a function and that they match the types required.
+{TRUE}
+
+::TypeScriptFundamentals
+::A Union ___.
+{
+=allows you to declare what the type could be
+~prevents you from declaring what the type could be
+~allows you to decide what the type could be
+~allows you to declare what the name could be
+}
+
+::TypeScriptFundamentals
+::In TS, Interfaces only describe the privateside of the class.
+{FALSE}
+
+::TypeScriptFundamentals
+::Before a property on the 'this' porperty is accessed from within a constructor body, super() must be called. 
+{TRUE}
+
+::TypeScriptFundamentals
+::Private fields can be accessed from outside of their containing classes.
+{FALSE}
+
+::TypeScriptFundamentals
+::Static class members are shared among the instances of the class.
+{TRUE}

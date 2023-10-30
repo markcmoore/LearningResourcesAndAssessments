@@ -1,0 +1,44 @@
+::VisualStudioSolution
+::.NET projects are contained within a ___
+{
+=solution
+~project
+~assembly
+~file
+}
+
+::VisualStudioSolution
+::A _____ is a container for one or more related projects.
+{
+=solution
+~project
+~assembly
+~file
+}
+
+::VisualStudioSolution
+::A solution is described by a text file with extension ___.
+{
+=.sln
+~.xml
+~.exe
+~.pdf
+}
+
+::VisualStudioSolution
+::The project file is a ____ document that contains all the information and instructions that MSBuild needs in order to build a project 
+{
+=.xml
+~.sln
+~.exe
+~.pdf
+}
+
+::VisualStudioSolution
+::What do Assemblies form?
+{
+=the fundamental units of deployment, version control, reuse, activation scoping, and security permissions for .NET-based applications. 
+~a collection of types and resources that work together and form a logical unit of functionality.
+~the form of executable (.exe) or dynamic link library (.dll) files.
+~the Common Language Runtime with the information it needs to be aware of type implementations.
+}

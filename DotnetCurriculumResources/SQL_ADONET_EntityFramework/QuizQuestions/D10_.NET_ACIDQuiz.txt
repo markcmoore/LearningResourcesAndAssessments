@@ -1,0 +1,99 @@
+::ACID
+::What do you call a set of properties of database transactions intended to guarantee validity in the event of errors/failures?
+{
+=atomicity, consistency, isolation, durability.
+~automaticity, consistency, isolation, durability.
+~automaticity, consistency, inflation, debility.
+~atomicity, consistency, inflation, debility.
+}
+
+::ACID
+::This property eliminates the chance of processing only a subset of operations.
+{
+=Atomicity
+~Consistency
+~Isolation
+~Durability
+}
+
+::ACID
+::What's the name of the property when in a transaction either all of the work is done or none of it is.
+{
+=Atomicity
+~Consistency
+~Isolation
+~Durability
+}
+
+::ACID
+::What's the name of the property when a transaction keep the consistency of data?
+{
+=Consistency
+~Atomicity
+~Isolation
+~Durability
+}
+
+::ACID
+::What do you call the property where simultaneous transactions behave as if each were the only transaction running in the system?
+{
+=Isolation
+~Consistency
+~Atomicity
+~Durability
+}
+
+::ACID
+::What happens when you have a high degree of isolation?
+{
+=You can limit the number of concurrent transactions.
+~You can limit the number of Loggings.
+~A high number of transactions.
+~A low number of concurrent transactions.
+}
+
+::ACID
+::How do you make a transaction durable?
+{
+=By specialized logging.
+~By performing only a subset of interdependent operations.
+~By transforming one consistent state of data into another consistent state of data.
+~By a concurrent transaction.
+}
+
+::ACID
+::What's the correct definition for Atomicity?
+{
+=The entire transaction takes place at once or doesn't happen at all.
+~The entire transaction takes place at once or does happen at all.
+~A part of the transaction takes place at once or doesn't happen at all.
+~The entire transaction takes place at all.
+}
+
+::ACID
+::What's the correct definition for Consistency?
+{
+=The database must be consistent before and after the transaction.
+~The database must not be consistent before and after the transaction.
+~The database must be consistent before the transaction.
+~The database must be consistent after the transaction.
+}
+
+::ACID
+::What's the correct definition for Isolation?
+{
+=Multiple Transactions occur independently without interference.
+~Multiple Transactions occur independently with interference.
+~Multiple Transactions occur dependently with interference.
+~Multiple Transactions occur dependently without interference.
+}
+
+::ACID
+::What's the correct definition for Durability?
+{
+=The changes of a successful transaction occurs even if the system failure occurs.
+~The changes of a successful transaction occurs when the system failure occurs.
+~The changes of a transaction occurs when the system failure occurs.
+~The changes of a successful transaction occurs while the system failure occurs.
+}
+

@@ -1,0 +1,77 @@
+::ReactiveProgrammingAndRxJsWithAngular
+::Reactive programming is ___.
+{
+=an asynchronous programming paradigm concerned with data streams and the propagation of change
+~a synchronous programming paradigm concerned with data streams and the propagation of change
+~an asynchronous programming language concerned with data streams and the propagation of change
+~an asynchronous programming paradigm concerned with rivers, streams, and the propagation of change
+}
+
+::ReactiveProgrammingAndRxJsWithAngular
+::What happens if a propagation order is not a natural consequence of the source program?
+{
+=expressions may not execute in the same order every time. 
+~expressions may not execute in a different order every time. 
+~expressions may not execute in the same class every time. 
+~evaluations may not execute in the same order every time. 
+}
+
+::ReactiveProgrammingAndRxJsWithAngular
+::The Observer Pattern is ___.
+{
+=a software design pattern in which an object, called a Subject, maintains a list of its dependents, called Observers
+~a software design pattern in which an object, called a Component maintains a list of its dependents, called Observers
+~a software design paradigm in which an object, called a Subject, maintains a list of its dependents, called Observers
+~a software design pattern in which an object, called a Subject, maintains a list of its dependents, called Operators
+}
+
+::ReactiveProgrammingAndRxJsWithAngular
+::The five Core Concepts of RxJS are ___.
+{
+=Observables, Observers, Subscriptions, Operators, Subjects, Schedulers
+~Observables, Observed, Subscriptions, Operators, Subjects, Schedulers
+~Observables, Observers, Subscriptions, Operations, Subjects, Schedulers
+~Observables, Observers, Subscriptions, Operators, SubClasses, Schedulers
+}
+
+::ReactiveProgrammingAndRxJsWithAngular
+::Lazy-Push means ___.
+{
+=that the values are only updated when asked for
+~that the values are updated automatically
+~Consumers push data when asked for it.
+~Producer push data automatically
+}
+
+::ReactiveProgrammingAndRxJsWithAngular
+::The most useful thing in RxJS is the ___.
+{
+=Operators
+~Observables
+~Subjects
+~Subscriptions
+}
+
+::ReactiveProgrammingAndRxJsWithAngular
+::Observers can be partial.
+{TRUE}
+
+::ReactiveProgrammingAndRxJsWithAngular
+::Subjects are just one way of sharing an Observable execution to multiple Observers.
+{FALSE}
+
+::ReactiveProgrammingAndRxJsWithAngular
+::THe best way to work with Higher-Order Observables is by “flattening” them.
+{TRUE}
+
+::ReactiveProgrammingAndRxJsWithAngular
+::Use + to add more subscriptions to a parent subscription.
+{FALSE}
+
+::ReactiveProgrammingAndRxJsWithAngular
+::A Subject is an Observer object. 
+{TRUE}
+
+::ReactiveProgrammingAndRxJsWithAngular
+::interval() takes an Observable as an argument. 
+{FALSE}

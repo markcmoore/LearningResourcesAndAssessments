@@ -1,0 +1,40 @@
+::Serialization
+::Serialization saves the state of an object so that it can be ___ later. 
+{
+=recreated
+~deconstructed
+~retrieved
+~changed
+}
+
+::Serialization
+::JSON is a popular type of serialization provided by ___.
+{
+=the System.Text.Json namespace
+~a third-party service
+~serialization
+~references
+}
+
+::Serialization
+::In JSON, enums are supported as ___.
+{
+=numbers
+~integers
+~strings
+~objects
+}
+
+::Serialization
+::XML serialization does not include type information.
+{TRUE}
+
+::Serialization
+::JSON Serialization ___ the public properties of an object into a string
+{
+=serializes 
+~converts
+~upcasts
+~downcasts
+}
+

@@ -1,0 +1,50 @@
+::CssFundamentals
+::CSS is a language that describes ___.
+{
+=the style HTML elements are to be displayed in on screen
+~the placement of HTML elements on screen
+~the style HTML elements are to be connected on screen
+~the stylesheet HTML elements are to be displayed in on screen
+}
+
+::CssFundamentals
+::The ___ points to the HTML element you want to style.
+{
+=selector 
+~declaration block
+~property
+~rule set
+}
+
+::CssFundamentals
+::Pseudo Classes can be combined with HTML Classes to be less specific 
+{FALSE}
+
+::CssFundamentals
+::(Choose all that apply)The concentric boxes of the Box Model are
+{
+~%25%Content
+~%25%Padding
+~%25%Border
+~%25%Margin
+~%-50%Edge
+~%-50%Element
+}
+
+::CssFundamentals
+::A hex value is a ___ followed by six hex numbers
+{
+=\#sign
+~\$ sign
+~\& sign
+~\* sign
+}
+
+::CssFundamentals
+::Specificity only ____.
+{
+=applies when the different element is targeted by multiple declarations.
+~applies when the same property is targeted by multiple declarations.
+~applies when the same element is targeted by exactly 2 declarations.
+~applies when the same element is targeted by multiple classes.
+}

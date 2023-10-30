@@ -1,0 +1,81 @@
+::CommonLanguageRuntime
+::___ is a managed execution environment that is part of Microsoft's .NET framework.
+{
+	=CLR
+	~CLI
+	~CRL
+	~CTR
+}
+
+::CommonLanguageRuntime
+::The .NET Framework consists of the Common Language Runtime (CLR) and the .NET Framework.
+{FALSE}
+
+::CommonLanguageRuntime
+::As the foundation for .NET Framework, CLR manages/runs the code and provides services like memory management, remoting, type enforcement, security, etc.
+{TRUE}
+
+::CommonLanguageRuntime
+::What does BCL stands for?
+{
+	=Base Class Library
+	~Built-in Class Language
+	~Base Common Library
+}
+
+::CommonLanguageRuntime
+::What is a Class Library?
+{
+	=Is a comprehensive, object-oriented collection of reusable types that you use to develop apps ranging from traditional command-line or graphical user interface (GUI) apps to apps based on the latest innovations provided by ASP.NET, such as Web Forms and XML Web services.
+	~Is the foundational class library for .NET Core. It defines the types for primitives, collections, file systems, console, JSON, XML, async and many others.
+	~Is a managed execution environment that is part of Microsoft's .NET framework.
+}
+
+::CommonLanguageRuntime
+::What is CoreFX?
+{
+	~Is a comprehensive, object-oriented collection of reusable types that you use to develop apps ranging from traditional command-line or graphical user interface (GUI) apps to apps based on the latest innovations provided by ASP.NET, such as Web Forms and XML Web services.
+	=Is the foundational class library for .NET Core. It defines the types for primitives, collections, file systems, console, JSON, XML, async and many others.
+	~Is a managed execution environment that is part of Microsoft's .NET framework.
+}
+
+::CommonLanguageRuntime
+::CoreFX defines the types for primitives, collections, I/O systems, console, JSON, XML, async, and many others.
+{FALSE}
+
+::CommonLanguageRuntime
+::With statement is FALSE about Managed Code?
+{
+	=Managed Code is compiled into IL code, which the CTS compiles and executes.
+	~Managed by the Common Language Runtime at runtime.
+	~Is written in a high-level language that can be run on top of .NET.
+	~The CLR provides memory management (GC), security boundaries, type safety, etc.
+}
+
+::CommonLanguageRuntime
+::What do you call code that runs outside the CLR?
+{
+	=Unmanaged code
+	~External code
+	~Native code
+}
+
+::CommonLanguageRuntime
+::Fill in the blank. "When the lifetime of an IDisposable object is limited to a single method, you should declare and instantiate it in the _____ statement."
+{
+	=using
+	~Dispose
+	~byte
+}
+
+::CommonLanguageRuntime
+::Within the using block, the object is read-only and can be modified or reassigned.
+{FALSE}
+
+::CommonLanguageRuntime
+::If your language supports a construct such as the Dispose statement in C#, you can use it instead of explicitly calling IDisposable.Dispose yourself.
+{FALSE}
+
+::CommonLanguageRuntime
+::The using statement ensures that .Dispose is called even if an exception occurs within the using block.
+{TRUE}

@@ -1,0 +1,40 @@
+::FetchAPI
+::The Fetch API 
+{
+=provides an interface for fetching resources that has a more powerful and flexible feature set than XMLHttpRequest.
+~provides a Class for fetching resources that has a more powerful and flexible feature set than XMLHttpRequest.
+~provides an interface for fetching resources that has a more complex and flexible feature set than XMLHttpRequest.
+~provides an interface for fetching resources that has a more powerful and flexible feature set than XMLRequest.
+}
+
+::FetchAPI
+::Fetch only fails when ___.
+{
+=there is a network failure.
+~the response is a 200.
+~the response is a 404.
+~you send an invalid URL.
+}
+
+::FetchAPI
+::Fetch() has ___ possible argument(s).
+{
+=2
+~1
+~3
+~4
+}
+
+::FetchAPI
+::Which is the equivalent of '.then(null, function)'.
+{
+=.catch()
+~.finally()
+~.then()
+~.try()
+}
+
+::FetchAPI
+::Only Responses contain body data.
+{FALSE}
+

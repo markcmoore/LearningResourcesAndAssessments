@@ -1,0 +1,89 @@
+::Logging_BuiltIn
+::What technique is designed for low overhead so that programs can always be recording?
+{
+	=logging
+	~debug
+	~log in
+	~controling
+}
+
+::Logging_BuiltIn
+::Which ´print-style´API is often used for ad-hoc temporary debugging?
+{
+	=System.Console
+	~System.Diagnostics.Trace
+	~System.Diagnostics.Debug
+	~System.Console.Trace
+}
+
+::Logging_BuiltIn
+::Which ´print-style´API is  used when creating logs that will be enabled in most builds?
+{
+	=System.Diagnostics.Trace
+	~System.Console
+	~System.Diagnostics.Debug
+	~System.Console.Trace
+}
+
+::Logging_BuiltIn
+::Which ´print-style´API is used when creating logs that will be enabled only in debug builds?
+{
+	=System.Diagnostics.Debug
+	~System.Cosole.Trace
+	~System.Diagnostics.Trace
+	~System.Console
+}
+
+::Logging_BuiltIn
+::Which API can log to multiple services?
+{
+	=System.Diagnostics.Activity
+	~System.Diagnostics.Tracing.Events
+	~System.Diagnostics.DiagnosticSource
+	~System.Diagnostics.EventLogging
+}
+
+::Logging_BuiltIn
+::Which statement is true when adding a provider in an app that uses Generic Host?
+{
+	=Add Microsoft.Extensions.Logging NuGet Package
+	~Call the services Add {provider name} extension method in Program.cs
+	~Add using Microsoft.Extensions.Logging at the top of your app
+	~Clear out default log in settings with logging.ClearProviders():
+}
+
+::Logging_BuiltIn
+::Which log level is best when in the development phase?
+{
+	=Debug
+	~Trace
+	~Information
+	~Warning
+}
+
+::Logging_BuiltIn
+::Which log level is appropriate for logging unexpected events?
+{
+	=Warning
+	~Error
+	~Information
+	~Debug
+}
+
+::Logging_BuiltIn
+::Which log level is appropriate when you've lost data.
+{
+	=CriticalError
+	~Debug
+	~Error
+	~Trace
+}
+
+::Logging_BuiltIn
+::During which stage is it appropriate to log critical messages to the console?
+{
+	=development
+	~production
+	~debug
+	~all of the choices
+}

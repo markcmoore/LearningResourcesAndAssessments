@@ -1,0 +1,49 @@
+::JavaScript
+::JavaScript conforms to ___.
+{
+=ECMAScript
+~US government regulations
+~The OOP Standard
+~The .NET Standard
+}
+
+::JavaScript
+::___ defines the content of web pages.
+{
+=HTML
+~CSS
+~JavaScript
+~C#
+}
+
+::JavaScript
+::(Mark all that are correct) Javascript is ___.
+{
+~%34%prototype-based
+~%33%single-threaded
+~%33%case-sensitive
+~multi-threaded
+}
+
+::JavaScript
+::There is an official JavaScript reference.
+{FALSE}
+
+::JavaScript
+::Using 'Number(x)', if the input is a false, what is the output?  
+{
+=0
+~1
+~NaN
+~Null
+}
+
+::JavaScript
+::In a Weak Set ____.
+{
+=only Objects are allowed
+~only integral numbers are allowed
+~you must have a key/value pair
+~you can check the '.size()'
+}
+

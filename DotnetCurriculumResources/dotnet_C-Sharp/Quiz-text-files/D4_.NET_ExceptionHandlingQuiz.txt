@@ -1,0 +1,107 @@
+::Exception Handling
+::Which three keywords are used to implement exception handling?
+{
+	=catch, finally, and try.
+	~finalize, get, and catch.
+	~try, finalize, and get.
+	~try, catch, and finalize.
+}
+
+::Exception Handling
+::What do you call an error in program logic that should be addressed not through exception handling but by modifying the faulty code?
+{
+	=usage error
+	~general failure
+	~system failure
+	~program error
+}
+
+::Exception Handling
+::What do you call a run-time error that cannot necessarily be avoided by writing bug-free code?
+{
+	=program error
+	~system failure
+	~general failure
+	~usage error
+}
+
+::Exception Handling
+::What do you call a run-time error that cannot be handled programmatically in a meaningful way?
+{
+	=system failure
+	~program error
+	~general failure
+	~usage error
+}
+
+::Exception Handling
+::Fill in the blank: _________ occur due to faulty program logic and should be addressed though correction of the code rather than in handling an exception when it’s thrown.
+{
+	=usage errors
+	~general failures
+	~system failures
+	~program errors
+}
+
+::Exception Handling
+::What do you need to use to prevent an exception by trying the action first?
+{
+	=.TryParseExact
+	~.ParseExact
+	~.TryExact
+	~.TryParse
+}
+
+::Exception Handling
+::What method can be called when using an event to handle exceptions?
+{
+	=Environment.FailFast
+	~Exception.FailFast
+	~UnhandledException.FailTest
+	~OutOfMemoryException
+}
+
+::Exception Handling
+::Which class is the base class for all exceptions?
+{
+	=Exception Class
+	~All Exceptions Class
+	~Application Exception Class
+	~Application Class
+}
+
+::Exception Handling
+::Which statement is true?
+{
+	=All exceptions inherit from the Exception Class.
+	~All run-time exceptions inherit from the Exception Class.
+	~All exceptions inherit from the Application Exception Class.
+	~None are true.
+}
+
+::Exception Handling
+::What happens when an exception is thrown and the catch block is not found?
+{
+	=The CLR displays an unhandled exception message to the user and stops execution of the program.
+	~The try block followed by one or more catch clauses.
+	~The block is executed until an exception is thrown or it is completed successfully.
+	~The CLR unwinds the stack looking for the appropriate catch statement.
+}
+
+::Exception Handling
+::Which statement can be used in a catch block to re-throw the exception that is caught by the catch statement?
+{
+	=throw
+	~catch
+	~IOExcpetion
+	~re-throw
+}
+
+::Exception Handling
+::If the predefined exceptions from the exception hierarchy does not meet your needs, what can you do?
+{
+	=Create your own exception classes.
+	~Derive (inherit) from the Base class.
+	~Start the class name with the word "Exception“.
+	~Implement the two common constructors (example).
+}

@@ -1,0 +1,44 @@
+::JavaScriptFunctions
+::A local variable declared with the same name inside a function __ the outer variable. 
+{
+=shadows
+~overwrites
+~ignores
+~is overshodowed by
+}
+
+::JavaScriptFunctions
+::An arrow function declaration with one parameter _____.
+{
+=require no ()
+~require ()
+~require no {}
+~require {}
+}
+
+::JavaScriptFunctions
+::IFFE means
+{
+=Immediately Invoked Function Expression
+~Immediately Invoked Fraction Expression
+~Immediately Indicated Function Expression
+~Immediate Invocation Function Expression
+}
+
+::JavaScriptFunctions
+::A closure is  
+{
+=the combination of a function enclosed with references to its surrounding state
+~the combination of a function excluded from its references to its surrounding state
+~the concatenation of a function enclosed with references to its surrounding state
+~the combination of a function enclosed with references to its surrounding functions
+}
+
+::JavaScriptFunctions
+::Assigning an IIFE to a variable stores ____, not the function definition itself.
+{
+=the function's return value
+~the function's parameters
+~the function's value
+~the function's parameter value
+}

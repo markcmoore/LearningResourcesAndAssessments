@@ -1,0 +1,39 @@
+::ClassAndInterface
+::The most fundamental of C#’s types is ___. 
+{
+=the class 
+~the object
+~a variable
+~an integer
+}
+
+::ClassAndInterface
+::Classes are instantiated using class declarations. 
+{FALSE}
+
+::ClassAndInterface
+::Classes and structs declared directly within a namespace (not nested within other classes or structs) can be ___. 
+{
+=either public or internal
+~public
+~private
+~public static
+}
+
+::ClassAndInterface
+::The four types of method parameters are ___.
+{
+=value, reference, output, and parameter array
+~value, reference, output, and out
+~dynamic, reference, output, and parameter array
+~value, default, output, and parameter array
+}
+
+::ClassAndInterface
+::Which is the correct way to instantiate a new class instance.
+{
+="Dog dog1 \= new Dog();"
+~"Dog dog1 \= new dog1();"
+~"Dog dog1 \= Dog();"
+~"dog1 \= new Dog();"
+}

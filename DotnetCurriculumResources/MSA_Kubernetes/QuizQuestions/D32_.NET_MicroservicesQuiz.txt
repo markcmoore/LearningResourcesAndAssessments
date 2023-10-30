@@ -1,0 +1,63 @@
+::Microservices
+::Microservices Architecture (MSA) style is ___. 
+{
+=an approach to developing an application as a suite of smaller ‘services’
+~an approach to developing an platform as a suite of large ‘services’
+~an approach to developing an application as a sequence of smaller ‘services’
+~a methodology to developing an application as a suite of smaller ‘services’
+}
+
+::Microservices
+::One problem with a monolith application is ___.
+{
+=One small change forces you to rebuild and redeploy the whole application as a new version.
+~It’s hard to keep the code well organized with loose abstractions.
+~If one part of the app is a bottleneck the whole service is affected.
+}
+
+::Microservices
+::MSA’s are built around ___.
+{
+=business needs
+~technological abilities
+~client preferences
+~software engineer skills
+}
+
+::Microservices
+::In MSA, you focus on products, not projects
+{TRUE}
+
+::Microservices
+::(Choose all that apply)The basic characteristics of Microservices Components (services) are
+{
+~%50%Each service implements one business capability.
+~%50%Services control their own logic.
+~%-50%Services cannot manage/persist their own data
+~%-50%Each service is irreplaceable.
+}
+
+::Microservices
+::(Choose all that apply)What are some benefits of MSA?
+{
+~%50%Long-term flexibility when new technologies are developed.
+~%50%Loose coupling is enforced by the architecture
+~%-50%Smaller, easier-to-understand services help to slowly get new features live.
+~%-50%Scaling is more difficult with increasing load requirements.
+}
+
+::Microservices
+::In MSA there are many more moving parts that can break so there must be more error handling and resiliency built into the system.
+{TRUE}
+
+::Microservices
+::In MSA, high latency between varying services can lead to a “microservices death star”. Many services needing to be altered for certain adjustments made to one service.
+{FALSE}
+
+::Microservices
+::An MSA must have extensive monitoring to detect problems quickly to be able to respond appropriately to arising problems.
+{FALSE}
+
+::Microservices
+::You should consider using Microservices first. before considering a monolith.
+{FALSE}

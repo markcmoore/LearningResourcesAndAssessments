@@ -1,0 +1,43 @@
+::HtmlFundamentals
+::HTML is a programming language
+{FALSE}
+
+::HtmlFundamentals
+::This is a container for introductory content or a set of navigational links.
+{
+=<header></header>
+~<audio> </audio>
+~<footer></footer>
+~<section></section>
+}
+
+::HtmlFundamentals
+::Where does the title of a page go?
+{
+=In the Head
+~In the body
+~Under the html
+~below the html
+}
+
+::HtmlFundamentals
+::Text without any tag ___.
+{
+=prints on the webpage
+~does not print
+~causes a compile-time error
+~has default styling
+}
+
+::HtmlFundamentals
+::You cannot nest elements inside other elements. 
+{FALSE}
+
+::HtmlFundamentals
+::The Attribute is a ___. 
+{
+=key-value pair
+~a modifier placed outside the opening tag of the element
+~unique identifier for an element. 
+~an alternate XML-style syntax
+}

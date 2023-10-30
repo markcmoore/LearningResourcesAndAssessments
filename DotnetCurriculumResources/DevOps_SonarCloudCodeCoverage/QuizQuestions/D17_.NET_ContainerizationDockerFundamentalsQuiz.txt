@@ -1,0 +1,89 @@
+::DockerFundamentals
+::What does the command 'docker images' do?
+{
+=It lists the images installed on your local system
+~It lists the images downloaded from Docker Hub.
+~It starts the images on your local.
+~It lists your image history.
+}
+
+::DockerFundamentals
+::You create an image from what?
+{
+=a Dockerfile
+~a YAML file
+~a Docker File
+~a .yml file
+}
+
+::DockerFundamentals
+::The '--detach' flag is used for what?
+{
+=Runs a container in the background
+~Erases an image from your local
+~Separates two otherwise Bound images
+~allows you to rename the image.
+}
+
+::DockerFundamentals
+::'docker stop' is used for what?
+{
+=It stops a running contianer.
+~It stops upload of an image.
+~It is not a valid command.
+~It quits the Docker Engine.
+}
+
+::DockerFundamentals
+::How many containers can you run in Docker?
+{
+=Many.
+~It depends on the host.
+~Between 10-12.
+~Only one.
+}
+
+::DockerFundamentals
+::Where can bugs be fixed?
+{
+=In the development environment.
+~In the container.
+~In the test environment.
+~In the production environment.
+}
+
+::DockerFundamentals
+::Where can Docker Containers run?
+{
+=All of the above.
+~In a data center.
+~On physical and virtual machines.
+~On a developer’s local laptop.
+}
+
+::DockerFundamentals
+::When does a Docker Image become Docker Container?
+{
+=At runtime when run on the Docker Engine.
+~At runtime.
+~At the host operating system.
+~At the private file system.
+}
+
+::DockerFundamentals
+::What are the major components of Docker Engine?
+{
+=Server, REST API, and a command line interface.
+~Daemon process and docker command.
+~REST API and docker CLI.
+~Container, image, and network.
+}
+
+::DockerFundamentals
+::How does the docker client and daemon communicate each other?
+{
+=By using a REST API.
+~Through the client-server architecture.
+~They can't communicate each other.
+~Through each container.
+}

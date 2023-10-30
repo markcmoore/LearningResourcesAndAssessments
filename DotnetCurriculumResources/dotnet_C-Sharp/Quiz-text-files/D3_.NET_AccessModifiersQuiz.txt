@@ -1,0 +1,89 @@
+::AccessModifers
+::Fill in the blank: Access Modifiers are keywords used to specify the declared _______ of a member or type.
+{
+	=accessibility
+	~mobility
+	~destination
+	~position
+}
+
+::AccessModifers
+::Fill in the blanks: ________ declared directly within a namespace can be _______.
+{
+	=Classes and structs / public or internal
+	~Derived classes / on or off
+	~Internal classes / public or private
+	~Access modifiers / on or off
+}
+
+::AccessModifers
+::What is the default if no class access modifier is specified?
+{
+	=Internal
+	~Derived classes
+	~Structs
+	~Classes
+}
+
+::AccessModifers
+::______ can't have greater accessibility than their ____ types.
+{
+	=Derived classes/super
+	~Internal/base
+	~Structs/super
+	~Classes/base
+}
+
+::AccessModifers
+::Class member accessibility: This class or derived classes only.
+{
+	=private protected
+	~protected
+	~protected internal
+	~public
+}
+
+::AccessModifers
+::Class member accessibility: Child classes, or classes within the same assembly.
+{
+	=protected internal
+	~public
+	~protected
+	~private protected
+}
+
+::AccessModifers
+::Class member accessibility: Default.
+{
+	=private
+	~public
+	~protected internal
+	~private protected
+}
+
+::AccessModifers
+::Class member accessibility: Derived classes only.
+{
+	=protected
+	~protected internal
+	~private
+	~private protected
+}
+
+::AccessModifers
+::Fill in the blank: The ______  keyword is an access modifier for types and type members. 
+{
+	=public
+	~private
+	~class
+	~struct
+}
+
+::AccessModifers
+::Fill in the blank: A common use of ______  access is in component-based development because it enables a group of components to cooperate in a private manner without being exposed to the rest of the application code.
+{
+	=internal
+	~protected internal
+	~public
+	~private
+}

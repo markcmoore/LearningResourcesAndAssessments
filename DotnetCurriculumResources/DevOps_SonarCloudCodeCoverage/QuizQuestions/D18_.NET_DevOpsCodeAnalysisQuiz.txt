@@ -1,0 +1,53 @@
+::DevOpsToolingAndCodeAnalysis
+::A build workflow starts with ___.
+{
+=a trigger
+~a solution
+~unit tests
+~a program
+}
+
+::DevOpsToolingAndCodeAnalysis
+::Continuous Delivery (CD) is ___.
+{
+=a process by which code is built, tested, and deployed to one or more test and production environments to help improve product quality.
+~a process by which code is run, tested, and deployed to one or more test and production environments to help improve product quality.
+~a process by which code is built, verified, and deployed to one or more test and production environments to help improve product quality.
+~a process by which code is built, tested, and produced to one or more test and production environments to help improve product quality.
+}
+
+::DevOpsToolingAndCodeAnalysis
+::Azure Pipelines works with just about any language or ___ type.
+{
+=project 
+~language
+~framework
+~build
+}
+
+::DevOpsToolingAndCodeAnalysis
+::The mechanism that controls how and when builds occur is ___. 
+{
+=the build definition
+~the pipeline
+~the developer
+~compiled
+}
+
+::DevOpsToolingAndCodeAnalysis
+::Static code analysis is ___.
+{
+=the analysis of computer software performed without executing the program. 
+~the analysis of computer software performed while executing the program. 
+~the analysis of software tests performed while executing the program. 
+~the analysis of computer software performed without compiling the program. 
+}
+
+::DevOpsToolingAndCodeAnalysis
+::Determining what is and is not a Code Smell is ___.
+{
+=subjective
+~difficult
+~important
+~the first step in compilation
+}

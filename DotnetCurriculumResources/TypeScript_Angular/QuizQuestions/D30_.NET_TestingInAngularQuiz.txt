@@ -1,0 +1,55 @@
+::TestingInAngular
+::Jasmine depends on one other JavaScript framework.
+{FALSE}
+
+::TestingInAngular
+::What does 'ng new' do?
+{
+=The Angular CLI downloads, installs, and configures everything needed to test an Angular application with the Jasmine test framework and Karma test runner.
+~Angular downloads, installs, and configures everything needed to test an Angular application with the Jasmine test framework and Karma test runner.
+~The Angular CLI downloads, installs, and configures everything needed to compile an Angular application with the Jasmine test framework and Karma test runner.
+~The Angular CLI downloads, installs, and configures everything needed to test an Angular application with the .NET test framework and Karma test runner.
+}
+
+::TestingInAngular
+::Put spec files ___.
+{
+=in the same folder as the component or source code files they test.
+~in a general “Tests” folder.
+~in a "banner" folder.
+~in the same folder as the application.
+}
+
+::TestingInAngular
+::An Angular teset starts with ___.
+{
+=A describe() function.
+~An it() function.
+~a description of the test.
+~an assert() statement.
+}
+
+::TestingInAngular
+:: Which function allows you to set up the environment before running the tests?
+{
+=beforeEach()
+~beforeThis()
+~beforeIt()
+~Testbed()
+}
+
+::TestingInAngular
+::You can test a data service with an injected HttpClient spy as you would test any service with a dependency.
+{TRUE}
+
+::TestingInAngular
+::You can do anything with a property spy that you can do with a function spy
+{TRUE}
+
+::TestingInAngular
+::spyOnProperty() takes at least two parameters
+{TRUE}
+
+::TestingInAngular
+::Reactive forms provide asynchronous access to the form models and data models and they can be tested without rendering the UI. 
+{FALSE}

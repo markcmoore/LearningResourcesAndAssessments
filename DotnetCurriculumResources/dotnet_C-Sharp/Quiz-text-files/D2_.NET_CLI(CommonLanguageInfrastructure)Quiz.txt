@@ -1,0 +1,45 @@
+::CommonLanguageInfrastructure
+::The Common Language Infrastructure (CLI) is
+{
+=an open specification
+~a closed system
+~a runtime environment
+~used on different computer platforms 
+}
+
+::CommonLanguageInfrastructure
+::Common Language Infrastructure (CLI) enables an application program written in any programming language ___.
+{
+=to be run on any operating system. 
+~to be compiled accurately.
+~a way to communicate with the cloud.
+~to be compiled into any other programming language.
+}
+
+::CommonLanguageInfrastructure
+::The ___ is used by the CLR to enforce strict typing and code verification.
+{
+=CTS
+~CLI
+~CLS
+~CIL
+}
+
+::CommonLanguageInfrastructure
+::The ___ defines the two main types (reference and value types) that should be supported.
+{
+=Common Type System
+~Comom language Intrastructure
+~Common Language System
+~Common Intermediate Language
+}
+
+::CommonLanguageInfrastructure
+::The previous name for CIL was ___.
+{
+=Microsoft Intermediate Language 
+~Common Intermediate Language
+~MIcrosoft Common Intermediate Language
+~Assembly Language
+}
+

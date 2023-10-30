@@ -1,0 +1,35 @@
+::SourceControlManagement
+::Version control is the documentation of changes to documents, computer programs, and large web sites.
+{FALSE}
+
+::SourceControlManagement
+::There are two main Version Control Systems: Distributed VCS and Decentralized VCS.
+{FALSE}
+
+::SourceControlManagement
+::A Centralized Version Control system works on ___. 
+{
+=a client-server model.
+~a peer-to-peer model.
+~a cloud server.
+~the .NET framework.
+}
+
+::SourceControlManagement
+::In a Distributed VCS, ___.
+{
+=the code base is distributed amongst the individual developers’ computers.
+~a limited history of the code is mirrored on each system. 
+~there are locking of parts of the code.
+~developers push their master copy into the master copy.
+}
+
+::SourceControlManagement
+::In a Centralized Version Control system, ___.
+{
+=there is a single master copy of the code base.
+~and pieces of the code that are being worked on are typically unlocked.
+~access to the code base and locking is controlled by the client.
+~only subscribers can unlock the code base.
+}
+

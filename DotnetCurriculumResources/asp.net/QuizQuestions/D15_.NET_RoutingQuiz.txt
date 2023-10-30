@@ -1,0 +1,44 @@
+::Routing
+::ASP.NET Core controllers ___.
+{
+=use the Routing middleware to match the URLs of incoming requests and map them to actions. 
+~use the Routing back-end to match the URLs of incoming requests and map them to actions. 
+~use the Routing middleware to match the URLs of outgoing requests and map them to actions. 
+~use the Routing middleware to match the URLs of incoming requests and send them to actions. 
+}
+
+::Routing
+::A controller is a class used to define and group a set of ___.
+{
+=actions
+~methods
+~classes
+~programs
+}
+
+::Routing
+::Model validation occurs ___.
+{
+=for everything that’s Model-Bound
+~for everything that’s Tightly-Bound 
+~for everything if Model-Bound 
+~for one property that’s Model-Bound
+}
+
+::Routing
+::The Model Binding System ___.
+{
+=Provides the data to controllers in Action Method parameters and public properties.
+~Sends data from various sources such as route data, form fields, and query strings.
+~Converts string data to Core types.
+~Updates methods of complex types.
+}
+
+::Routing
+::REST APIs should use ___.
+{
+=attribute routing to model the app's functionality as a set of resources where operations are represented by HTTP verbs.
+~conventional routing to model the app's functionality as a set of resources where operations are represented by HTTP verbs.
+~attribute routing to class the app's functionality as a set of resources where operations are represented by HTTP verbs.
+~attribute routing to model the app's functionality as a set of resources where operations are represented by action verbs.
+}

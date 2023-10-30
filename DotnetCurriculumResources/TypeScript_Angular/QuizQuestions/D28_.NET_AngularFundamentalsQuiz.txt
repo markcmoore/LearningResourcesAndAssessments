@@ -1,0 +1,80 @@
+::AngularFundamentals
+::Angular is ___.
+{
+=an application design framework and development platform for creating single-page apps.
+~an application design program and development platform for creating single-page apps.
+~an gamified design framework and development platform for creating single-page apps.
+~an application design framework and development testing platform for creating single-page apps.
+}
+
+::AngularFundamentals
+::A project is the set of files that comprise an app, a ___, or end-to-end tests. 
+{
+=library
+~framework
+~solution
+~class
+}
+
+::AngularFundamentals
+::Components are the fundamental building blocks of Angular applications. 
+{TRUE}
+
+::AngularFundamentals
+::For a class to be available to other components ___.
+{
+=the class uses the export keyword
+~the class must be public
+~the component must import the class
+~the component and class must be in the same directory
+}
+
+::AngularFundamentals
+::Angular CLI automatically imports the new component into 
+{
+=app.module.ts
+~app.components
+~component.imports
+~NgModule.module.ts
+}
+
+::AngularFundamentals
+::An interface allows you to implement a class in various places.
+{TRUE}
+
+::AngularFundamentals
+::The 'as' keyword ___.
+{
+=allows you to rename an export or import
+~is used to create an interface
+~creates more versions of the same component
+~allows yu to upcast or downcast a type
+}
+
+::AngularFundamentals
+::Curly braces (\{ \}) are Angular's interpolation binding syntax.
+{FALSE}
+
+::AngularFundamentals
+::. In AngularJS, decorators are functions that allow a service, directive or filter to be modified prior to its usage.
+{TRUE}
+
+::AngularFundamentals
+::If forms are a key part of your application, use template-driven forms.
+{FALSE}
+
+::AngularFundamentals
+::Routes are registered in app.module.js
+{FALSE}
+
+::AngularFundamentals
+::Routes tell the Router which view to display when a user clicks a link.
+{TRUE}
+
+::AngularFundamentals
+::The toRoot() method supplies the service providers and directives needed for routing/
+{FALSE}
+
+::AngularFundamentals
+::Teh command to create a new service is ng generate service [serviceName]
+{TRUE}

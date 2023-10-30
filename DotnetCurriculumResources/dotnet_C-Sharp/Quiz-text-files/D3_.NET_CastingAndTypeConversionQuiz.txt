@@ -1,0 +1,35 @@
+::CastingAndTypeConversion
+::C# is statically typed at compile time. This means that ___
+{
+=After a variable is declared, it cannot be declared again or assigned a value of another type unless that type is implicitly convertible to the variable's type. 
+~After a variable is instantiated, it cannot be instantiated again or assigned a value of another type unless that type is implicitly convertible to the variable's type. 
+~After a variable is used, it is implicitly convertible to the variable's type. 
+~After a variable is declared, it cannot be assigned a value of another type unless that type is explicitly convertible to the variable's type. 
+}
+
+::CastingAndTypeConversion
+::The two types of conversion in C# are implicit and explicit.
+{TRUE}
+
+::CastingAndTypeConversion
+::Explicit conversions ___.
+{
+=require a cast operator
+~require no special syntax
+~are implicit
+~have no data loss
+}
+
+::CastingAndTypeConversion
+::The 'is' operator returns true if a variable is non-null and can be converted to the other type by a reference.
+{TRUE}
+
+::CastingAndTypeConversion
+::The 'is' operator ___
+{
+=doesn't consider numeric conversions.
+~considers integral conversions.
+~does not take into account boxing.
+~only takes into account boxing.
+}
+

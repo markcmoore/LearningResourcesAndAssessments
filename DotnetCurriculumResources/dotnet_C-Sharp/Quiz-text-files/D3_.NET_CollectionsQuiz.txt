@@ -1,0 +1,44 @@
+::Collections
+::Collections are ready-made classes that provide a more flexible way to work with ___. 
+{
+=groups of objects
+~lists
+~structs
+~jagged arrays 
+}
+
+::Collections
+::Dictionary<TKey,TValue> is a generic version of ___.
+{
+=Hashtable
+~List
+~ArrayList
+~Queue
+}
+
+::Collections
+::When you create an instance of a generic class, you specify the ___ to substitute for the type parameters. 
+{
+=types
+~data types
+~objects
+~value
+}
+
+::Collections
+::What is any type that is substituted for a generic type parameter.
+{
+=generic type argument 
+~generic type definition 
+~generic type parameters 
+~constructed generic type 
+}
+
+::Collections
+::A sortedList<> ___ a collection of key/value pairs that are sorted by key 
+{
+=represents 
+~returns
+~searches
+~stores
+}

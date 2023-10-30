@@ -1,0 +1,80 @@
+::MvcConcepts
+::What is true about the MVC architectural pattern?
+{
+=Helps to achieve separation of concerns.
+~Helps to request a route.
+~Helps to scale the application in terms of logic.
+~Helps to present content.
+}
+
+::MvcConcepts
+::Which layer is responsible for choosing which items will be displayed?
+{
+=Business
+~Presentation
+~Resource
+~Access
+}
+
+::MvcConcepts
+::Which layer is responsible for formatting the items?
+{
+=Presentation
+~Business
+~Resource
+~Access
+}
+
+::MvcConcepts
+::Which layer is responsible for choosing which items to format?
+{
+=Business
+~Presentation
+~Resource
+~Access
+}
+
+::MvcConcepts
+::Which of these statements is true.
+{
+=The Model part of an MVC application represents the state of the application and any business logic or operations that should be performed by it.
+~The Model part of an MVC application represents the state of the application and operations that should be performed by it.
+~The View part of an MVC application represents the state of the application and any business logic or operations that should be performed by it.
+~The Controller part of an MVC application represents the state of the application and any business logic or operations that should be performed by it.
+}
+
+::MvcConcepts
+::What is needed for persisting the state of the application?
+{
+=implementation logic.
+~Strongly-typed views.
+~Strongly-typed views and business logic.
+~State logic.
+}
+
+::MvcConcepts
+::Are responsible for presenting content through the user interface:
+{
+=Views
+~Razor view engine
+~View Component
+~Presentation
+}
+
+::MvcConcepts
+::What is the best description of a Controller?
+{
+=Is responsible for selecting which model types to work with and which view to render.
+~Is necessary in order to display data from a complex model.
+~Is encapsulated in the Model, along with any implementation logic (DbContext) for persisting the state of the DataBase.
+~Is a key consideration behind the use of layers in application architectures.
+}
+
+::MvcConcepts
+::Why is Separation of Concerns important?
+{
+=This delineation of responsibilities helps you scale the application in terms of complexity because it's easier to code, debug, and test something that has a single job.
+~This separation of responsibilities helps you scale the application in terms of complexity because it's easier to code, debug, and deploy something that has a single job.
+~This delineation of responsibilities forces you separate the application in terms of complexity because it's easier to code, debug, and test something that has a single job.
+~none of the above
+}

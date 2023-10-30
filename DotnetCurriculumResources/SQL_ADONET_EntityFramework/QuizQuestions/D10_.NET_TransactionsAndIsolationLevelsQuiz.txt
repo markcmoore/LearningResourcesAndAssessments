@@ -1,0 +1,98 @@
+::TransactionsAndIsolationLevels
+::What does Isolation Levels define?
+{
+=The degree to which a transaction must be isolated from other data modifications made by any other transaction.
+~The degree to which a Savepoint can exists within a single transaction.
+~The degree to which a level must be modified by any other transaction.
+~The degree to which a transaction commits ends within a Relational Database and allows all other users to see the changes.
+}
+
+::TransactionsAndIsolationLevels
+::What is the name of the Read Error that happens when a transaction reads data that is new and has not yet been committed by another transaction?
+{
+=Dirty Read
+~Phantom Read
+~Repeatable Read
+~Non-Repeatable read
+}
+
+::TransactionsAndIsolationLevels
+::What is the name of the Read Error that happens when a transaction reads the same row twice and gets a different value each time?
+{
+=Non-Repeatable Read
+~Repeatable Read
+~Dirty Read
+~Phantom Read
+}
+
+::TransactionsAndIsolationLevels
+::What is the name of the Read Error that happens when two identical queries are executed but the rows retrieved by the two are different?
+{
+=Phantom Read
+~Dirty Read
+~Repeatable Read
+~Non-Repeatable Read
+}
+
+::TransactionsAndIsolationLevels
+::Which statement is true for "serializable"?
+{
+=The only transaction isolation level that provides complete isolation from concurrency effects.
+~One of the transaction isolation levels that provide complete isolation from concurrency effects.
+~The only transaction isolation level that provides partial isolation from concurrency effects.
+~One of the transaction isolation levels that provide partial isolation from concurrency effects.
+}
+
+::TransactionsAndIsolationLevels
+::What does the Repeatable Read isolation level guarantee? 
+{
+=To read only committed data.
+~Not to change before the transaction ends.
+~To also read committed data.
+~Not to change after the transaction ends.
+}
+
+::TransactionsAndIsolationLevels
+::What does Read committed level can do?
+{
+=See committed data from different points in time.
+~Allow all three concurrency phenomena.
+~Provide complete isolation from concurrency effects.
+~Block until the exclusive lock on the row is freed.
+}
+
+::TransactionsAndIsolationLevels
+::What does Read-uncommitted level can do?
+{
+=Allow all three concurrency phenomena.
+~See committed data from different points in time.
+~Provide complete isolation from concurrency effects.
+~Block until the exclusive lock on the row is freed.
+}
+
+::TransactionsAndIsolationLevels
+::What is the correct definition for COMMIT transaction?
+{
+=The saving of data permanently after a set of tentative changes.
+~An operation which returns the database to some previous state.
+~A way of implementing nested transactions within a RDMS by indicating a point within a transaction.
+~The set of data encountered under serializable isolation.
+}
+
+::TransactionsAndIsolationLevels
+::What is the correct definition for ROLLBACK transaction?
+{
+=An operation which returns the database to some previous state.
+~The saving of data permanently after a set of tentative changes.
+~A way of implementing nested transactions within a RDMS by indicating a point within a transaction.
+~The set of data encountered under serializable isolation.
+}
+
+::TransactionsAndIsolationLevels
+::What is the correct definition for SAVEPOINT transaction?
+{
+=A way of implementing nested transactions within a RDMS by indicating a point within a transaction.
+~The set of data encountered under serializable isolation.
+~An operation which returns the database to some previous state.
+~The saving of data permanently after a set of tentative changes.
+}

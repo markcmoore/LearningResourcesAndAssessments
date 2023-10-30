@@ -1,0 +1,40 @@
+::TagHelpers
+::Tag Helpers ___.
+{
+=enable server-side code to participate in creating and rendering HTML elements in Razor files.
+~enable server-side code to be excluded from creating and rendering HTML elements in Razor files.
+~enable server-side code to participate in creating and rendering HTML elements in .txt files.
+~disable server-side code from participating in creating and rendering HTML elements in Razor files.
+}
+
+::TagHelpers
+::Tag helpers provide ___.
+{
+=a HTML-friendly environment because the syntax is familiar to front-end designers.
+~a JSON-friendly environment because the syntax is familiar to front-end designers.
+~a HTML-friendly environment because the syntax is familiar to back-end designers.
+~a HTML-friendly environment because the spelling is familiar to front-end designers.
+}
+
+::TagHelpers
+::What is the alternative to Html.BeginForm?
+{
+=<Form>
+~<Input>
+~<Action>
+~<Method>
+}
+
+::TagHelpers
+::If a model is passed to the view, ___.
+{
+=the form control will begin already populated with the model’s values.
+~the input control will begin already populated with the model’s values.
+~the form control will be submitted already populated with the model’s values.
+~the form control will begin already populated with the model’s defaults.
+}
+
+::TagHelpers
+::The <select> tag helper is equal to Html.DropDownRadioFor
+{FALSE}
+
